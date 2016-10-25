@@ -6,7 +6,7 @@ import java.util.*;
  *  @author pwaite
  */
 
-public class ListDemo {
+public class ListDemo2 {
 
     /** Main method to demonstrate use of the List interface/ArrayList class
      *  @param args Parameters that are entered on the command line.
@@ -15,12 +15,7 @@ public class ListDemo {
     public static void main(String[] args) {
 
         // instantiate an arraylist
-        List<String> myList = new ArrayList<String>();
-        
-        myList.add("one");
-        myList.add("one");
-        myList.add("two");
-        myList.add("three");
+        List<String> myList = createList();
 
         System.out.println(myList);
 
@@ -49,6 +44,17 @@ public class ListDemo {
         for (String myString : mySet) {
             System.out.println(myString);
         }
+    }
+
+    private static List<String> createList() {
+        List<String> myList = new ArrayList<String>();
+
+
+        myList.add("one");
+        myList.add("one");
+        myList.add("two");
+        myList.add("three");
+        return myList;
     }
 
 }
