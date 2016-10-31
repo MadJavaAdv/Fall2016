@@ -30,9 +30,14 @@
 		    <li><a href="/java112/simple-html">Simple HTML Servlet</a></li>
 		</ul>
 		<h2>Unit 3<span class="post-span"></span></h2>
-		<p>JSPs Coming soon!
+		<p>
+		<ul>
+			<li><a href="/java112/demo.jsp">Demo JSP</a></li>
+			<li><a href="/java112/requestDemo">HttpRequest Demo</a></li>
+		</ul>
 
     <h2>Unit 4<span class="post-span"></span></h2>
+		<p>
 		<p>JDBC and JSTL Coming soon!
 		
 			</div>
