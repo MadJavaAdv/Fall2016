@@ -7,7 +7,7 @@
 
   <h1>${someVariable}<h1>
 
-<h1>The student is: ${Mike}</h1>
+<h1>The student is: ${Mike.firstName}</h1>
 
   </body>
 </html>

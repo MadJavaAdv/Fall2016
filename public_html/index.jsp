@@ -34,6 +34,10 @@
 		<ul>
 			<li><a href="/java112/demo.jsp">Demo JSP</a></li>
 			<li><a href="/java112/requestDemo">HttpRequest Demo</a></li>
+			<li><a href="/java112/attributeDemoV1">Attribute Demo</a></li>
+			<li><a href="/java112/forward-demo">Forwarding Demo</a></li>
+			<li><a href="/java112/redirect-demo">Redirect Demo</a></li>
+			<li><a href="/java112/mvc-demo">MVC Demo</a></li>
 		</ul>
 
     <h2>Unit 4<span class="post-span"></span></h2>

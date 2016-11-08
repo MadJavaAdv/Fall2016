@@ -4,12 +4,13 @@ package java112.demo;
  *  @author pwaite
  */
 
-
     public class Student implements Comparable<Student> {
      private String firstName;
      private String lastName;
      private String grade;
      private int id;
+
+
 
      public Student() {
          //no argument constructor
@@ -102,7 +103,7 @@ package java112.demo;
 				'}';
 	}
 
-/**
+	/**
 	  *  Compare students - based on id
 	  *  @param thatStudent to compare
 	  */
