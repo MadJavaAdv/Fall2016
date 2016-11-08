@@ -2,15 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d6d61b-9703-46be-bcbb-b4c37df51eeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/transferDemo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java112/demo/StudentDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java112/demo/StudentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java112/demo/StudentMapDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/java112/demo/ListDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/java112/demo/MapDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/java112/demo/PropertiesDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/java112/demo/ReadDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/java112Labs.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TEST-java112.tests.Lab2MysteryClassTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TEST-java112.tests.LabThreeTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/deprecated-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/index-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/LabThree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/LabThreeOld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/MysteryClassOne.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/UseBufferedReader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/UsePrintWriter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/java112/labs1/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/project_api/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java112/demo/ListDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/java112Demos.jar" afterPath="$PROJECT_DIR$/lib/java112Demos.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/demo.properties" afterPath="$PROJECT_DIR$/config/demo.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.xml" afterPath="$PROJECT_DIR$/config/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/elDemo.jsp" afterPath="$PROJECT_DIR$/public_html/elDemo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/css/style.css" afterPath="$PROJECT_DIR$/public_html/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/index.jsp" afterPath="$PROJECT_DIR$/public_html/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java112/demo/Student.java" afterPath="$PROJECT_DIR$/src/java112/demo/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runAnalyzer.sh" afterPath="$PROJECT_DIR$/runAnalyzer.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java112/demo/MapDemo.java" afterPath="$PROJECT_DIR$/src/java112/demo/MapDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java112/demo/PropertiesDemo.java" afterPath="$PROJECT_DIR$/src/java112/demo/PropertiesDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java112/project2/TrivialServlet.java" afterPath="$PROJECT_DIR$/src/java112/project2/TrivialServlet.java" />
     </list>
     <ignored path="projectsAdvJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,61 +59,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpRequestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="39" column="73" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="73" />
+            <state relative-caret-position="675">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeDemoV1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java112/project3/AttributeDemoV1.java">
+      <file leaf-file-name="demo.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/demo.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedirectionDemoServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java112/project3/RedirectionDemoServlet.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvcDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java112/project3/MvcDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elDemo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/elDemo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java112/demo/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="1056">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,13 +104,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/java112/demo/ListDemo.java" />
         <option value="$PROJECT_DIR$/src/java112/demo/ListDemo2.java" />
-        <option value="$PROJECT_DIR$/config/web.xml" />
         <option value="$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java" />
         <option value="$PROJECT_DIR$/build/index.jsp" />
-        <option value="$PROJECT_DIR$/public_html/index.jsp" />
         <option value="$PROJECT_DIR$/src/java112/project3/AttributeDemoV1.java" />
         <option value="$PROJECT_DIR$/public_html/elDemo.jsp" />
         <option value="$PROJECT_DIR$/src/java112/demo/Student.java" />
+        <option value="$PROJECT_DIR$/src/java112/demo/PropertiesDemo.java" />
+        <option value="$PROJECT_DIR$/src/java112/demo/MapDemo.java" />
+        <option value="$PROJECT_DIR$/runAnalyzer.sh" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/public_html/css/style.css" />
+        <option value="$PROJECT_DIR$/public_html/index.jsp" />
+        <option value="$PROJECT_DIR$/config/demo.properties" />
+        <option value="$PROJECT_DIR$/config/web.xml" />
       </list>
     </option>
   </component>
@@ -125,8 +129,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="width" value="1375" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -182,6 +186,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,10 +268,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectsAdvJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,15 +770,16 @@
       <workItem from="1478472541503" duration="2062000" />
       <workItem from="1478563598926" duration="987000" />
       <workItem from="1478564665155" duration="1073000" />
+      <workItem from="1478573466106" duration="948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11672000" />
+    <option name="totallyTimeSpent" value="12620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -736,18 +787,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2293578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22846442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20053908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -772,6 +823,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/project3/AttributeDemoV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/project3/RedirectionDemoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/project3/MvcDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/elDemo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/demo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -893,14 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503">
-          <caret line="315" column="44" selection-start-line="315" selection-start-column="42" selection-end-line="315" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java112/demo/ListDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -937,13 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.jsp" />
     <entry file="file://$PROJECT_DIR$/src/java112/project3/BeanOne.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -974,21 +1058,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/beanOneDemo.jsp" />
-    <entry file="file://$PROJECT_DIR$/public_html/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="39" column="73" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/elDemo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1007,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java112/project3/AttributeDemoV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="792">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="32" />
           <folding />
         </state>
@@ -1015,7 +1084,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java112/project3/RedirectionDemoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="242">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
           <folding />
         </state>
@@ -1025,6 +1094,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/project3/HttpRequestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/demo/PropertiesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java112/demo/MapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runAnalyzer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5698">
+          <caret line="259" column="19" selection-start-line="259" selection-start-column="19" selection-end-line="259" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/demo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>

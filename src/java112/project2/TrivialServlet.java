@@ -34,7 +34,11 @@ public class TrivialServlet extends HttpServlet {
         out.print("<BODY>");
         out.print("<h1>TrivialServlet Here!</h1>");
         //System.out.println("Is this logging?");
+<<<<<<< HEAD
         log("Is this logging?");
+=======
+        //log("Is this logging?");
+>>>>>>> 43719f52d7cc2f5a15a809800a93f9757b43b88f
         out.print("</BODY>");
         out.print("</HTML>");
         out.close();
