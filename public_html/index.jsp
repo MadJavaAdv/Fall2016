@@ -22,15 +22,15 @@
 
 	<div id="content">
 		<h2>Unit 2 <span class="post-span"></span></h2>
-        <p>
+
 		<ul>
 		    <li><a href="/java112/linkingDemo.html">Linking Demo</a></li>
 		    <li><a href="/java112/simple">Trivial Servlet</a></li>
 		    <li><a href="/java112/simple-text">Simple Text Servlet</a></li>
 		    <li><a href="/java112/simple-html">Simple HTML Servlet</a></li>
 		</ul>
-		<h2>Unit 3<span class="post-span"></span></h2>
 		<p>
+		<h2>Unit 3<span class="post-span"></span></h2>
 		<ul>
 			<li><a href="/java112/demo.jsp">Demo JSP</a></li>
 			<li><a href="/java112/requestDemo">HttpRequest Demo</a></li>
@@ -39,12 +39,20 @@
 			<li><a href="/java112/redirect-demo">Redirect Demo</a></li>
 			<li><a href="/java112/mvc-demo">MVC Demo</a></li>
 		</ul>
+		<p>
 
     <h2>Unit 4<span class="post-span"></span></h2>
-		<p>
-		<p>JDBC and JSTL Coming soon!
+
+		<ul>
+			<li><a href="/java112/demo.jsp">Demo JSP</a></li>
+			<li><a href="/java112/requestDemo">HttpRequest Demo</a></li>
+			<li><a href="/java112/attributeDemoV1">Attribute Demo</a></li>
+			<li><a href="/java112/forward-demo">Forwarding Demo</a></li>
+			<li><a href="/java112/redirect-demo">Redirect Demo</a></li>
+			<li><a href="/java112/mvc-demo">MVC Demo</a></li>
+		</ul>
 		
-			</div>
+	</div>
 
 	<div id="footer">
 		<div style="float: right;">
