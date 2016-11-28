@@ -37,6 +37,8 @@ public class RequestParamDemo extends HttpServlet {
         String  param2  = request.getParameter("param2");
 
         log("param2: " + param2);
+
+        // how would you  display these on a jsp?
     }
 
 }

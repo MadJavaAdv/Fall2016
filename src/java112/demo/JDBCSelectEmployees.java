@@ -57,7 +57,7 @@ public class JDBCSelectEmployees {
             System.err.println("Cannot find database driver ");
             classNotFound.printStackTrace();
         } catch (SQLException sqlException) {
-            System.err.println("Error in connection.ecting to database "
+            System.err.println("Error in connecting to database "
                     + sqlException);
             sqlException.printStackTrace();
         } catch (Exception exception) {

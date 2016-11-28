@@ -34,7 +34,7 @@ public class JDBCInsertEmployees {
 
             System.out.println("insertstring is: " + insertString);
 
-            statement.executeUpdate(insertString);
+            int numberOfRecords = statement.executeUpdate(insertString);
 
 
             String name = "Smith";

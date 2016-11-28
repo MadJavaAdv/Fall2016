@@ -1,22 +1,12 @@
 <!DOCTYPE html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>Welcome To Advanced Java!</title>
-	<meta http-equiv="Content-Language" content="German" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css' />
-</head>
+<c:set var="title" value="Index Page - demoing the title" />
+<c:import url="jsp/head.jsp" />
 <body>
 <div id="wrap">
-	<div id="header">
-		<div id="headerlinks">
-		<a href="http://paulawaite.com/education/java112" title="Advanced Java">Advanced Java</a>
-		<a href="http://madisoncollege.edu" title="Madison College">Madison College</a>
-		
-		</div>
-		<h1><a href="#">Welcome to Advanced Java</a></h1>
-	</div>
+
+	<c:import url="jsp/header.jsp" />
 
 	
 
@@ -43,25 +33,25 @@
 
     <h2>Unit 4<span class="post-span"></span></h2>
 
+
+
 		<ul>
-			<li><a href="/java112/demo.jsp">Demo JSP</a></li>
-			<li><a href="/java112/requestDemo">HttpRequest Demo</a></li>
-			<li><a href="/java112/attributeDemoV1">Attribute Demo</a></li>
-			<li><a href="/java112/forward-demo">Forwarding Demo</a></li>
-			<li><a href="/java112/redirect-demo">Redirect Demo</a></li>
-			<li><a href="/java112/mvc-demo">MVC Demo</a></li>
+			<li><a href="/java112/jstlDemo">JSTL Demo</a></li>
+			<li><a href="/java112/jstlIfDemo.jsp">JSTL If Demo</a></li>
+			<li><a href="/java112/jstlScopeDemo.jsp">JSTL Scope Demo</a></li>
+			<li><a href="/java112/project4-session-lab">Session Lab</a></li>
+			<li><a href="/java112/getting-session-attribute">Get Session Attribute Demo</a></li>
+			<li><a href="/java112/getting-setting-attribute">Get & Set Session Attribute Demo</a></li>
+			<li><a href="/java112/URLRewritingServlet">URL Rewriting Demo</a></li>
+			<li><a href="/java112/cookieServlet">Cookie Demo</a></li>
+			<li><a href="/java112/hiddenFormField.jsp">Hidden Field Demo</a></li>
+			<li><a href="/java112/requestParam.jsp">Form Demo</a></li>
+
 		</ul>
 		
 	</div>
 
-	<div id="footer">
-		<div style="float: right;">
-		<a href="#" title="Contact Us"><img src="img/contact.gif" alt="Contact" /></a>
-		<a href="#" title="Sitemap"><img src="img/sitemap.gif" alt="Sitemap" /></a>
-		<a href="#" title="Rss Feed"><img src="img/rss.png" alt="Rss Feed" /></a>
-		</div>
-		Theme #4 &copy; 2013 | <!-- You can use it for practically any personal or commercial use so long as you keep our footer credit links intact. -->Theme by <a target="_blank" href="http://codingdev.de" title="CodingDev">CodingDev</a>
-	</div>
+	<c:import url="jsp/footer.jsp" />
 </div>
 </body>
 </html>

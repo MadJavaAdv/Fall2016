@@ -43,7 +43,7 @@ public class Project4SessionLab extends HttpServlet {
             session.setAttribute("project4SessionCounter", sessionCount);
         }
 
-        String url = "/jsp/Project4SessionLab.jsp";
+        String url = "/Project4SessionLab.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
     }
